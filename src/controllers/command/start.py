@@ -5,8 +5,8 @@ from .help import help
 
 def start(update):
   logging.info({
+    'user_id': update.message.from_user.id,
     'command': update.message.text,
-    'user_id': update.message.user_id,
     'chat_id': update.message.chat_id,
   })
   text = '''

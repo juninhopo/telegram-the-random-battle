@@ -1,0 +1,58 @@
+Processing Update: {
+  'update_id': 533065527, 
+  'message': {
+    'chat': {
+      'username': 'thisrealdev', 
+      'type': 'private', 
+      'id': 1013736736, 
+      'first_name': 'juninhopo'
+      }, 
+      'channel_chat_created': False, 
+      'new_chat_members': [], 
+      'delete_chat_photo': False, 
+      'caption_entities': [], 
+      'photo': [
+        {
+          'height': 56, 
+          'width': 90, 
+          'file_unique_id': 'AQADma0xG4CRCUR4', 
+          'file_id': 'AgACAgEAAxkBAAMRZYG2rTrbp6p7ds4HyAFabDvJHyMAApmtMRuAkQlE3h9uuCtmiWcBAAMCAANzAAMzBA',
+          'file_size': 775
+          }, 
+          {
+            'height': 200, 
+            'width': 320, 
+            'file_unique_id': 'AQADma0xG4CRCURy', 
+            'file_id': 'AgACAgEAAxkBAAMRZYG2rTrbp6p7ds4HyAFabDvJHyMAApmtMRuAkQlE3h9uuCtmiWcBAAMCAANtAAMzBA',
+            'file_size': 11469
+            }, 
+            {
+              'height': 500, 
+              'width': 800, 
+              'file_unique_id': 'AQADma0xG4CRCUR9', 
+              'file_id': 'AgACAgEAAxkBAAMRZYG2rTrbp6p7ds4HyAFabDvJHyMAApmtMRuAkQlE3h9uuCtmiWcBAAMCAAN4AAMzBA', 
+              'file_size': 44580
+              }, 
+              {
+                'height': 800, 
+                'width': 1280, 
+                'file_unique_id': 'AQADma0xG4CRCUR-', 
+                'file_id': 'AgACAgEAAxkBAAMRZYG2rTrbp6p7ds4HyAFabDvJHyMAApmtMRuAkQlE3h9uuCtmiWcBAAMCAAN5AAMzBA', 
+                'file_size': 75509
+                }
+                ], 
+                'group_chat_created': False, 
+                'new_chat_photo': [], 
+                'entities': [], 
+                'supergroup_chat_created': False, 
+                'message_id': 17, 
+                'date': 1702999726, 
+                'from': {
+                  'is_bot': False, 
+                  'language_code': 'en', 
+                  'id': 1013736736, 
+                  'first_name': 'juninhopo', 
+                  'username': 'thisrealdev'
+                  }
+  }
+}
