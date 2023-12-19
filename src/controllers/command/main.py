@@ -1,4 +1,3 @@
-from .auau import auau
 from .start import start
 from .test import test
 from .help import help
@@ -13,7 +12,5 @@ def handle_command(update, context):
         help(update)
     elif command == '/test':
         test(update)
-    elif command == '/auau':
-        auau(update)
     else:
         unknown_command(update)

@@ -3,7 +3,6 @@ import logging
 
 from .controllers.message.main import handle_message
 from .controllers.command.main import handle_command
-from .controllers.photo.main import handle_photo
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from dotenv import load_dotenv
 
@@ -17,9 +16,6 @@ def add_command_handlers(dispatcher):
 
 def add_message_handlers(dispatcher):
     dispatcher.add_handler(MessageHandler(Filters.text, handle_message))
-
-def add_photo_handlers(dispatcher):
-    dispatcher.add_handler(MessageHandler(Filters.photo, handle_photo))
 
 def main():
 
@@ -35,7 +31,6 @@ def main():
 
     add_command_handlers(dispatcher)
     add_message_handlers(dispatcher)
-    add_photo_handlers(dispatcher)
 
     # Inicia o Bot
     logging.debug('Starting bot...')

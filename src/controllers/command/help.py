@@ -13,7 +13,6 @@ def help(update):
   /start -> Necessário para você me usar. 👹 
   /help  -> Você verifica tudo que posso fazer.
   /test  -> Você apenas verifica se o bot está funcionando.
-  /auau  -> Testa ai, você não vai se arrepender.
   '''
 
   send_text(chat_id=update.message.chat_id, text=text)
