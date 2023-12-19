@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+start = "uvicorn src.main:main"
+
+[packages]
+requests = "*"
+fastapi = "*"
+uvicorn = "*"
+python-dotenv = "*"
+asyncio = "*"
+pydantic = "*"
+python-telegram-bot = "13.13"
+update = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
